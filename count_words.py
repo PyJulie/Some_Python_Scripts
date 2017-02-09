@@ -4,6 +4,7 @@ import  os
 from collections import Counter
 
 all_words = []
+path = raw_input()
 for filename in os.listdir('test'):
     with open('test/'+filename) as f:
         text = f.read()
