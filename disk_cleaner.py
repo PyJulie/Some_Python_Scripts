@@ -12,7 +12,6 @@
  # 获取 Windows 目录 
  root_win_dir = os.environ['windir'] 
   
-  
  def del_dir_or_file(root): 
      try: 
          if os.path.isfile(root): 
