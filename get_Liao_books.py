@@ -20,7 +20,7 @@ geturl = geturl.replace(" ", "")
 # 得到包含url的字符串
 list = geturl.split(r'em;"><ahref="')[1:]
 
-# 强迫症犯了，一定要把第一个页面也加进去才完美
+# 强迫症犯了，一定要把第一个页面也加进去才完美...
 list.insert(0, '/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000">')
 
 # 开始遍历url List
