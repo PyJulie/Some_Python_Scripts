@@ -34,12 +34,10 @@ class WeixinNeedLoginError(WeixinPublicError):
     pass
 
 
-
 '''rasie when unenable to login.
 '''
 class WeixinLoginError(WeixinPublicError):
     pass
-
 
 
 class WeixinPublic(object):
@@ -164,6 +162,6 @@ class WeixinPublic(object):
 
 
 if __name__ == '__main__':
-    weixin = WeixinPublic("Î¢ĞÅ¹«ÖÚÆ½Ì¨ÕË»§Ãû","ÃÜÂë")
+    weixin = WeixinPublic("å¾®ä¿¡å…¬ä¼—å¹³å°è´¦æˆ·å","å¯†ç ")
     weixin.get_msg_list()
     weixin.get_user_icon()
