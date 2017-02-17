@@ -12,6 +12,7 @@ def convertjpg(jpgfile,outdir):
     new_img=img.resize((width,height),Image.BILINEAR)
     new_img.save(os.path.join(outdir,os.path.basename(jpgfile)))
 
+    
 def all_files(path):
     global i
     if not os.path.isdir(path) and not os.path.isfile(path):
@@ -29,6 +30,7 @@ def all_files(path):
         for x in os.listdir(path):
             all_files(os.path.join(path,x))
 
+            
 img_dir = 'C:\\red micai'
 
 start = time.time()
