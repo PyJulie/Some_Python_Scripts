@@ -36,6 +36,5 @@ img_dir = 'C:\\red micai'
 
 i=0
 all_files(img_dir)
-c = time.time() - start
-print '%0.2f'%(c)
+
 print '%s'%(i)
