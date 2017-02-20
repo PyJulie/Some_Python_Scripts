@@ -33,7 +33,7 @@ def all_files(path):
             
 img_dir = 'C:\\red micai'
 
-start = time.time()
+
 i=0
 all_files(img_dir)
 c = time.time() - start
