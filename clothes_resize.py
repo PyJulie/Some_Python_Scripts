@@ -1,9 +1,7 @@
 #coding:utf-8
 from PIL import Image
 import os
-import re
-import time
-import glob
+
 def convertjpg(jpgfile,outdir):
     img=Image.open(jpgfile)
     (x,y) = img.size
