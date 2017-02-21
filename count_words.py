@@ -1,6 +1,7 @@
 import  codecs
 import  jieba
 import  os
+
 from collections import Counter
 
 all_words = []
